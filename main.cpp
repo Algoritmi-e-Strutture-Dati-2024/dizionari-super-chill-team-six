@@ -1,5 +1,6 @@
 #include <iostream>
 #include "DizionarioEsteso.cpp"
+#include <string>
 
 int main() { 
     DizionarioEsteso<int> dizionario;
