@@ -44,8 +44,9 @@ public:
         if (table[index].isOccupied && table[index].key == key) {
             return table[index].value;
         }
-
-        return "Key not found!";
+        else {
+            return "Key not found!";
+        }
     }
 
     // Controlla se una chiave è presente nel dizionario
