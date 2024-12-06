@@ -18,8 +18,8 @@ int main() {
     std::cout << "\nContenuto del dizionario dopo aggiunta delle voci con collisioni:" << std::endl;
     dizionario.stampa();
 
-    std::cout << "\nValore associato a 'Casa': " << dizionario.recupera("Casa") << "\n";
-    std::cout << "Valore associato a 'naCe': " << dizionario.recupera("naCe") << "\n";
+    std::cout << "\nValore associato a 'Casa': " << dizionario.recupera("Casa") " << std::endl;
+    std::cout << "Valore associato a 'naCe': " << dizionario.recupera("naCe") " << std::endl;
 
     if (dizionario.appartiene("Palazzo")) {
         std::cout << "'Palazzo' è presente nel dizionario." << std::endl;
